@@ -1,3 +1,7 @@
 First lab for B07
 
 I have made a change
+git add
+git commit -m 'commit message'
+git push
+git pull
