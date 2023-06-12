@@ -14,7 +14,7 @@ public class Driver {
      
              // Display the polynomials
              polynomial1.saveToFile("polynomial1.txt");
-             polynomial2.saveToFile("polynomial2");
+             polynomial2.saveToFile("polynomial2.txt");
      
              // Perform addition
              Polynomial sum = polynomial1.add(polynomial2);
@@ -22,7 +22,7 @@ public class Driver {
      
              // Perform multiplication
              Polynomial product = polynomial1.multiply(polynomial2);
-             product.saveToFile("product");
+             product.saveToFile("product.txt");
      
              // Evaluate polynomial at x = 2
              double x = 2.0;
